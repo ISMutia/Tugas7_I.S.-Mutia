@@ -1,0 +1,38 @@
+Running :
+Untuk post
+localhost:3000/customers/add
+---- body-raw-json
+Contoh :
+{
+            "CustomerID": "Picas",
+            "CompanyName": "Alfreds Picaso",
+            "ContactName": "Maria Picaso",
+            "ContactTitle": "Sales Representative",
+            "Address": "Obere Str. 57",
+            "City": "Berlin",
+            "Country": "Germany",
+            "Phone": "030-0074321",
+            "PostalCode": "12209"
+        }
+Hasil
+{
+    "status": 200,
+    "message": "succes",
+    "data": {
+        "CustomerID ADD": "Picaso"
+    }
+}
+
+Untuk update
+localhost:3000/customers/update
+{
+            "CustomerID": "Picas",
+            "CompanyName": "Alfreds Picaso",
+            "ContactName": "Maria Picaso",
+            "ContactTitle": "Sales Picaso",
+            "Address": "Obere Str. 57",
+            "City": "Berlin",
+            "Country": "Germany",
+            "Phone": "030-0074321",
+            "PostalCode": "12209"
+        }
